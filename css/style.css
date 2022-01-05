@@ -1,0 +1,177 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size:60px;
+}
+
+
+section{
+    margin-bottom:120px;
+}
+
+.flexible_container{
+    display:flex;
+}
+
+.top-header{
+
+
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.half-width{
+    width:50%;
+    margin:10px;
+}
+
+.top-header .half-width h1{
+    font-weight: 900;
+}
+
+.top-header .half-width h1 span{
+    color: rgb(255, 0, 0);
+    font-size:italic;
+    font-weight:500;
+}
+
+.top-header .half-width p{
+    font-size:20px;
+}
+
+.top-header .half-width a{
+    text-decoration:none;
+    color:white;
+    background-image: repeating-linear-gradient(rgb(255, 126, 5),rgb(30, 255, 0));
+    padding: 10px 40px;
+    margin-top:20px;
+    border-radius: 5%;
+}
+
+.top-header .half-width img{
+    width:80%;
+}
+
+
+.dream-bg{
+   
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-bg .half-width img{
+    width:70%;
+}
+
+
+.dream-bg .half-width h1{
+    font-weight: 700;
+    color:blue;
+    font-size:50px;
+}
+
+.dream-bg .half-width h2{
+    font-size:35px;
+    font-style: italic;
+    
+
+}
+
+.dream-bg .half-width h2 span{
+    color:brown;
+    
+}
+
+
+.dream-bg .half-width p{
+    font-size:20px;
+}
+
+
+
+.dream-bg .half-width a{
+    text-decoration:none;
+    color:white;
+    background-image: repeating-linear-gradient(rgb(255, 126, 5),rgb(30, 255, 0));
+    padding: 10px 40px;
+    margin-top:20px;
+    border-radius: 5%;
+}
+
+.experience-area{
+    background-image:url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    background-position-x: 1px;
+}
+    .experience-area h1{
+    font-weight:700;
+    color:rgb(17, 0, 255);
+    margin-bottom: -20px;
+}
+
+
+.experience-item{
+    box-shadow: 10px 5px 5px rgb(28, 79, 218);
+
+    
+    width: 40%;
+    margin:5%;
+    padding:5%;
+    border-radius: 5%;
+}
+
+
+.experience-item h2{
+    margin-top:20px;
+    font-size:35px;
+    color:green;
+
+}
+
+.experience-item h3{
+    font-size:30px;
+    color:burlywood;
+    
+}
+
+.experience-item p{
+    font-size:20px;
+}
+
+
+#full-web-dev{
+
+    border-image:radial-gradient(27deg, rgb(116, 63, 25) 54deg,rgb(172, 1, 252))45;
+    border-left:7px solid;
+    border-image-slice: 1;
+    border-radius: 5%;
+}
+
+
+#baby_web_dev
+{
+
+    border-image:radial-gradient(270deg, rgb(255, 21, 21),rgb(235, 252, 1))75;
+    /* border-image:linear-gradient(270deg, rgb(255, 21, 21),rgb(235, 252, 1))75; */
+    border-left:7px solid;
+    border-image-slice: 1;
+    border-radius: 5%;
+}
+
+.footer-part{
+text-align: center;
+
+}
+
+.footer-part p{
+    color:rgb(25, 26, 18);
+    font-weight:700;
+    font-style: italic;
+    font-size: 15px;
+    }
